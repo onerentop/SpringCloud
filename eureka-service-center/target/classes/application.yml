@@ -1,0 +1,21 @@
+
+eureka:
+  server:  
+    enableSelfPreservation: false  #关闭自我保护
+    # 清理服务器
+    eviction-interval-timer-in-ms: 5000
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  application:
+    name: eureka-service
+server:
+  port: 8761
+
+    
+ 
