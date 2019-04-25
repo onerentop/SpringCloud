@@ -53,7 +53,6 @@ public class RibbonConsumerApplication_2 {
 		String url="";
 	  
      	url=prop.getProperty("url");
-      //  url="http://10.4.10.89:9002/sendMsg";
 	    
      	System.out.println("url---"+url);
 		//读取文件中已有的url
