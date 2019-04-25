@@ -110,7 +110,6 @@ public class RibbonConsumerApplication_2 {
          } catch (IOException e) {   
              System.err.println("属性文件更新错误");   
          }   
-     	
 	}
 }
 
